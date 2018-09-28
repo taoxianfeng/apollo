@@ -6,8 +6,9 @@ You can follow the standard [github approach](https://help.github.com/articles/u
 - Set up your GitHub personal email and user name
 
 ```
-git config user.name "XXX"
-git config user.email "XXX@[XXX.com]"
+git config --global user.name "XXX"
+git config --global user.email "XXX@[XXX.com]"
+ssh-keygen
 ```
 
 - Clone your fork (Please replace "USERNAME" with your GitHub user name.)
